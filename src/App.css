@@ -6,19 +6,24 @@
   text-decoration: none;
 }
 
-.App{
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+.searchWrapper{ 
+  background-color: green;
   width: 50%;
   margin: 0 auto;
   text-align: center;
 }
-.App h2{
-  color: white;
- padding-top: 20px;
+.searchWrapper h2{
+   padding-top: 20px;
 }
 .search input[type=text]{
  width: 80%;
  margin: 20px;
+}
 
+.search input[type=submit]{
+  margin-bottom: 20px;
+  width: 80%;
+}
+.container-city{
+  background-color:white;
 }
